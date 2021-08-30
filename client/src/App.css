@@ -1,0 +1,133 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(157.5deg, #5f61b3 0%, #5f61b3 16%, #7378b8 16%, #7378b8 20%, #878ebc 20%, #878ebc 32%, #9ba5c1 32%, #9ba5c1 38%, #afbbc6 38%, #afbbc6 48%, #c3d2cb 48%, #c3d2cb 51%, #d7e8cf 51%, #d7e8cf 59%, #ebffd4 59%, #ebffd4 100%), linear-gradient(135deg, #5f61b3 0%, #5f61b3 16%, #7378b8 16%, #7378b8 20%, #878ebc 20%, #878ebc 32%, #9ba5c1 32%, #9ba5c1 38%, #afbbc6 38%, #afbbc6 48%, #c3d2cb 48%, #c3d2cb 51%, #d7e8cf 51%, #d7e8cf 59%, #ebffd4 59%, #ebffd4 100%), linear-gradient(112.5deg, #5f61b3 0%, #5f61b3 16%, #7378b8 16%, #7378b8 20%, #878ebc 20%, #878ebc 32%, #9ba5c1 32%, #9ba5c1 38%, #afbbc6 38%, #afbbc6 48%, #c3d2cb 48%, #c3d2cb 51%, #d7e8cf 51%, #d7e8cf 59%, #ebffd4 59%, #ebffd4 100%), linear-gradient(90deg, #ec9791, #c9f32b);
+  background-blend-mode: overlay,overlay,overlay,normal;
+  padding: 24vh;
+}
+
+.login-container .login-form {
+  width: 460px;
+  display: block;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container .login-form .login-form-header {
+  color: #0e0e0e;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.login-container .login-form .login-form-body {
+  margin: 40px 0;
+}
+
+.login-container .login-form .login-form-body .form-group {
+  margin: 20px 0;
+}
+
+.login-container .login-form .login-form-body .form-group label {
+  color: #0e0e0eaa;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin: 5px 0;
+}
+
+.login-container .login-form .login-form-body .form-group input {
+  width: 100%;
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #0e0e0eaa;
+  padding: 0 10px;
+  font-size: 18px;
+  color: #0e0e0eaa;
+  outline: none;
+}
+
+.login-container .login-form .login-form-body .form-group input:focus {
+  border: 1px solid #0e0e0e;
+  color: #0e0e0e;
+  background: #f1f1f1;
+}
+
+.login-container .login-form .login-form-body .form-group-button {
+  margin: 10px 0;
+  background-color: #08a4ed;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.dashboardWrapper {
+  width: 100%;
+  height: 100vh;
+  padding: 8vh 20vh;
+  background: radial-gradient(circle at top left, #62b9e2, transparent), radial-gradient(circle at bottom right, #facffa, transparent);
+}
+
+.dashboardWrapper .logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Consolas";
+  color: #4D4DFF;
+}
+
+.helloContainer {
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #faf4fa;
+}
+
+.widget {
+  vertical-align: top;
+  width: 120px;
+  height: 160px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  padding: 20px;
+  display: inline-block;
+  margin: 5px 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.widget:hover {
+  background-color: #0e0e0e;
+  color: #fff;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.widget .widgetNumber {
+  font-size: 4vh;
+  font-family: "Consolas";
+  display: block;
+  text-align: center;
+}
+
+.widget .widgetTitle {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.recentActivity {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=App.css.map */

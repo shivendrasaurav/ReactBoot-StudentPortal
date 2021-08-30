@@ -1,0 +1,126 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(157.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(135deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(112.5deg, rgb(95, 97, 179) 0%, rgb(95, 97, 179) 16%,rgb(115, 120, 184) 16%, rgb(115, 120, 184) 20%,rgb(135, 142, 188) 20%, rgb(135, 142, 188) 32%,rgb(155, 165, 193) 32%, rgb(155, 165, 193) 38%,rgb(175, 187, 198) 38%, rgb(175, 187, 198) 48%,rgb(195, 210, 203) 48%, rgb(195, 210, 203) 51%,rgb(215, 232, 207) 51%, rgb(215, 232, 207) 59%,rgb(235, 255, 212) 59%, rgb(235, 255, 212) 100%),linear-gradient(90deg, rgb(236, 151, 145),rgb(201, 243, 43)); background-blend-mode:overlay,overlay,overlay,normal;
+    padding: 24vh;
+
+    .login-form{
+        width: 460px;
+        display: block;
+        margin: 0 auto;
+        padding: 60px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+        .login-form-header{
+            color: #0e0e0e;
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .login-form-body{
+            margin: 40px 0;
+
+            .form-group{
+                margin: 20px 0;
+
+                label{
+                    color: #0e0e0eaa;
+                    font-size: 14px;
+                    font-weight: bold;
+                    display: block;
+                    margin: 5px 0;
+                }
+                input{
+                    width: 100%;
+                    height: 48px;
+                    border-radius: 5px;
+                    border: 1px solid #0e0e0eaa;
+                    padding: 0 10px;
+                    font-size: 18px;
+                    color: #0e0e0eaa;
+                    outline: none;
+
+                    &:focus{
+                        border: 1px solid #0e0e0e;
+                        color: #0e0e0e;
+                        background: #f1f1f1;
+                    }
+                }
+            }
+
+            .form-group-button{
+                margin: 10px 0;
+                background-color: #08a4ed;
+                color: #fff;
+                border-radius: 5px;
+                border: none;
+                padding: 10px 24px;
+                font-size: 16px;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+    }
+}
+
+
+.dashboardWrapper{
+    width: 100%;
+    height: 100vh;
+    padding: 8vh 20vh;
+    background: radial-gradient(circle at top left, #62b9e2, transparent),
+    radial-gradient(circle at bottom right, #facffa, transparent);
+
+    .logo{
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Consolas";
+        color: #4D4DFF;
+    }
+}
+
+.helloContainer{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #faf4fa;
+}
+.widget{
+    vertical-align: top;
+    width: 120px;
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+    margin: 5px 10px;
+    transition: 300ms;
+
+    &:hover{
+        background-color: #0e0e0e;
+        color: #fff;
+        transition: 300ms;
+    }
+
+    .widgetNumber{
+        font-size: 4vh;
+        font-family: "Consolas";
+        display: block;
+        text-align: center;
+    }
+    
+    .widgetTitle{
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+.recentActivity{
+    border-radius: 10px;
+}
