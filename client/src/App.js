@@ -10,6 +10,7 @@ import {HashRouter as Router, Route, Switch, Redirect, useHistory} from "react-r
 import LoginComp from './components/LoginComp';
 import HomeComp from './components/HomeComp';
 import StudDash from './components/StudDash';
+import FacultyDashHome from './components/FacultyDashHome';
 
 //setup router
 const App = () => {
@@ -18,9 +19,10 @@ const App = () => {
       <Fragment>
         <Switch>
           <Redirect exact from="/" to="/login" />
-          <Route exact path="/home" component={HomeComp} />
-          <Route exact path="/login" component={LoginComp} />
-          <Route exact path="/studentDashboard" component={StudDash} />
+          <Route path="/home" component={HomeComp} />
+          <Route path="/login" component={LoginComp} />
+          <Route path="/studentDashboard" component={StudDash} />
+          <Route path="/facultyDashboardHome" component={FacultyDashHome} />
         </Switch>
       </Fragment>
     </Router>
