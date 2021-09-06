@@ -60,7 +60,7 @@ const StudDash = () => {
                 <br/><br/>
                 <div className="column large6 medium8 small12" style={{padding: "20px"}}>
                     <h4>Recent Activity</h4>
-                    <table className="table_container dlevel2">
+                    <table className="table_container recentActivity dlevel2">
                         <thead>
                             <tr style={{background: "#08a4ed", color: "#fcfcfc"}}>
                                 <th>Date</th>

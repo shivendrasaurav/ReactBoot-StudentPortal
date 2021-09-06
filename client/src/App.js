@@ -11,6 +11,8 @@ import LoginComp from './components/LoginComp';
 import HomeComp from './components/HomeComp';
 import StudDash from './components/StudDash';
 import FacultyDashHome from './components/FacultyDashHome';
+import FacultyBatchView from './components/FacultyBatchView';
+import FacultyNewAssessView from './components/FacultyNewAssessView';
 
 //setup router
 const App = () => {
@@ -18,11 +20,13 @@ const App = () => {
     <Router history={useHistory}>
       <Fragment>
         <Switch>
-          <Redirect exact from="/" to="/login" />
-          <Route path="/home" component={HomeComp} />
-          <Route path="/login" component={LoginComp} />
-          <Route path="/studentDashboard" component={StudDash} />
-          <Route path="/facultyDashboardHome" component={FacultyDashHome} />
+          <Redirect exact from="/" to="/app/login" />
+          <Route path="/app/home" component={HomeComp} />
+          <Route path="/app/login" component={LoginComp} />
+          <Route path="/app/student/dashboard" component={StudDash} />
+          <Route path="/app/faculty/dashboard" component={FacultyDashHome} />
+          <Route path="/app/faculty/batch/:id" component={FacultyBatchView} />
+          <Route path="/app/faculty/assessment/new" component={FacultyNewAssessView} />
         </Switch>
       </Fragment>
     </Router>
